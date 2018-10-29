@@ -6,8 +6,8 @@ This powershell script will Upload files to your hosted server using FTP protoco
 2. Remember to add filename in both file path.
 3. Run the script. (If running first time any Powershell script then Set-ExecutionPolicy.)
 
-## Optiona
-YOu can use either 
+## Option
+You can use either 
 ```
 $FileContent = gc -en byte $LocalFile
 $FTPRequest.ContentLength = $FileContent.Length
